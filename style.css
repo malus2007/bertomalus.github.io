@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #07191e;
+    color: #fff;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 200px;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+.logo img {
+    width: 220px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #003152;
+}
+
+.container h1 {
+    font-size:  50px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.about {
+    padding: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card_about {
+    width: 800px;
+    padding: 20px;
+}
+
+.card_about p {
+    font-size: 18px;
+}
+
+.card_one_about {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.card_one_about h3 {
+    font-size: 20px;
+}
+
+.card_one_about ol {
+    padding: 10px;
+}
+
+.card_one_about ol li {
+    margin-top: 10px;
+}
+
+.skil {
+    padding: 20px;
+}
+
+.skil h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card_skil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.skil_skil {
+    display: flex;
+    gap: 30px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 600px;
+    margin-top: 40px;
+    width: 500px;
+}
+
+.card_contact input {
+    padding: 8px;
+    width: 250px;
+}
+
+.card_contact textarea {
+    padding: 8px;
+    width: 250px;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sosial_media {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.sosial_media a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
